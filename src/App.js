@@ -1,6 +1,4 @@
-import ReactDOM from "react-dom";
-
-const App = () => {
+export const App = () => {
   return (
     <div>
       <h1>　Knock Knock</h1>
@@ -8,5 +6,3 @@ const App = () => {
     </div>
   );
 };
-
-ReactDOM.render(<App />, document.getElementById("root"));
