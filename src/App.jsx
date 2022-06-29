@@ -1,3 +1,4 @@
+import { ColoredMessage } from "./components/ColoredMessage";
 export const App = () => {
   // ボタンを押したときの処理
   const onClickButton = () => {
@@ -8,6 +9,7 @@ export const App = () => {
     <div>
       <h1>　Knock Knock</h1>
       <p>こんにちは</p>
+      <ColoredMessage />
       <button onClick={onClickButton}>ボタン</button>
     </div>
   );
