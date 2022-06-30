@@ -9,7 +9,7 @@ export const App = () => {
     <div>
       <h1>　Knock Knock</h1>
       <p>こんにちは</p>
-      <ColoredMessage />
+      <ColoredMessage color="orange" message="お元気ですか？" />
       <button onClick={onClickButton}>ボタン</button>
     </div>
   );
