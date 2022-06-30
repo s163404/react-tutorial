@@ -7,7 +7,7 @@ export const App = () => {
 
   return (
     <div>
-      <h1>　Knock Knock</h1>
+      <h1>Knock Knock</h1>
       <p>こんにちは</p>
       <ColoredMessage color="orange" message="お元気ですか？" />
       <button onClick={onClickButton}>ボタン</button>
