@@ -9,7 +9,8 @@ export const App = () => {
     <div>
       <h1>Knock Knock</h1>
       <p>こんにちは</p>
-      <ColoredMessage color="orange" message="お元気ですか？" />
+      <ColoredMessage color="blue">お元気ですか？</ColoredMessage>
+      <ColoredMessage color="pink">元気です！</ColoredMessage>
       <button onClick={onClickButton}>ボタン</button>
     </div>
   );
