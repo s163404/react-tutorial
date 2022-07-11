@@ -2,7 +2,7 @@ export const ColoredMessage = (props) => {
   // Propsを分割代入
   const { color, children } = props;
   const contentStyle = {
-    color: color,
+    color,
     fontSize: "20px"
   };
 
